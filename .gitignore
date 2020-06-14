@@ -127,3 +127,12 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# PyCharm
+.idea/
+
+# Archivos que deben subir
+backend/trash/**
+backend/samples/
+backend/users/
+backend/fakes/

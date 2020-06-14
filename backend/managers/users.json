@@ -1,0 +1,20 @@
+{
+  "__users__": [
+    {
+      "__code__": "code",
+      "__id__": 1,
+      "__name__": "uuu",
+      "__trainings__": [
+        {
+          "__action__": "zzz",
+          "__id__": 1,
+          "__name__": "nnn",
+          "__nn__": null,
+          "py/object": "kernel.Entities.Training.Training"
+        }
+      ],
+      "py/object": "kernel.Entities.User.User"
+    }
+  ],
+  "py/object": "managers.JsonUserManager.JsonUserManager"
+}

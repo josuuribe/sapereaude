@@ -1,0 +1,48 @@
+{
+  "DataSource": {
+    "path": ".\\DataSource\\"
+  },
+  "EEG": {
+    "sample_rate": 256,
+    "channels": 14,
+    "window_size": 256,
+    "number_blocks": -1,
+    "bands": {
+      "delta": {
+        "min": 0,
+        "max": 4
+      },
+      "theta": {
+        "min": 4,
+        "max": 7
+      },
+      "alpha": {
+        "min": 8,
+        "max": 12
+      },
+      "beta": {
+        "min": 12,
+        "max": 30
+      },
+      "gamma": {
+        "min": 30,
+        "max": 40
+      }
+    }
+  },
+  "CyKitServer": {
+    "host": "192.168.128.5",
+    "port": 8765,
+    "buffer_size": 1024
+  },
+  "ML": {
+    "learning_rate": 0.0005,
+    "batch_size": 256,
+    "epochs": 4000,
+    "threshold": 60
+  },
+  "Consumer": {
+    "delay": 2000,
+    "duration": 10
+  }
+}
