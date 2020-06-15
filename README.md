@@ -60,6 +60,5 @@ SUBSYSTEM=="usb", ACTION=="add", SUBSYSTEMS=="usb", ATTRS{idVendor}=="1d6b", GRO
 - numpy
 
 7. Architecture
-<img src="https://github.com/josuuribe/sapereaude/blob/master/images/NeuralArchitecture.png" width=34% height=34%  />
-- (Neural Architecture)[https://github.com/josuuribe/sapereaude/blob/master/images/NeuralArchitecture.png]
-- (Workflow)[https://github.com/josuuribe/sapereaude/blob/master/images/Workflow.png]
+<img src="https://github.com/josuuribe/sapereaude/blob/master/images/NeuralArchitecture.png" width=100% height=70%  />
+<img src="https://github.com/josuuribe/sapereaude/blob/master/images/Workflow.png" width=100% height=70%  />
