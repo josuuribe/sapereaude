@@ -58,3 +58,7 @@ SUBSYSTEM=="usb", ACTION=="add", SUBSYSTEMS=="usb", ATTRS{idVendor}=="1d6b", GRO
 - Tensorflow (1.15)
 - Keras
 - numpy
+
+7. Architecture
+- (Neural Architecture)[https://github.com/josuuribe/sapereaude/blob/master/images/NeuralArchitecture.png]
+- (Workflow)[https://github.com/josuuribe/sapereaude/blob/master/images/Workflow.png]
